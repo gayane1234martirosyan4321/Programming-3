@@ -65,7 +65,7 @@ module.exports = class Kerpar2 extends LiveForm {
             let x = newCell[0];
             let y = newCell[1];
 
-            matrix[y][x] = 4;
+            matrix[y][x] = 5;
             matrix[this.y][this.x] = 0;
 
             for (let i in grassArr) {
